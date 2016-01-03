@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse'
+apply plugin: 'eclipse-wtp'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.13'
+    compile 'org.apache.wicket:wicket:7.1.0'
+    
+    testCompile 'junit:junit:4.12'
+}
