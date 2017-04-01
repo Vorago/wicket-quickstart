@@ -1,6 +1,20 @@
 ## Quickstart
 
-Run
+### For Eclipse
+
 ```
-gradlew build eclipse
+./gradlew build eclipse
 ```
+
+### For IDEA
+
+```
+./gradlew build idea
+```
+
+### Running server
+
+```
+./gradlew appRun
+```
+
